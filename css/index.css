@@ -1,0 +1,112 @@
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+/*右边圆点指示器*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span{width: 1px;height: 1px;border-color: white; border-radius:50%;background: #000;}
+#fp-nav ul li a, .fp-slidesNav ul li a{width: 100%;height: 100%;cursor: pointer;}
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span
+{ height: 14px; width: 14px;  margin: -6px 0 0 -7px;  border-radius:50%;transition:0.5s}
+/*去掉横屏翻动的箭头*/
+.fp-controlArrow.fp-prev,.fp-controlArrow.fp-next{
+	border-width:0;
+}
+/*添加横屏翻动的箭头*/
+.fp-controlArrow.fp-prev{
+	width: 71px;height: 71px;background: url(../img/left.png);
+}
+.fp-controlArrow.fp-next{
+	width: 71px;height: 71px;background: url(../img/right.png);
+}
+/*给横屏插入背景图*/
+.section .slide.slideOne{ background: url(../img/banner1.jpg) 50%}
+.section .slide.slideTwo{ background: url(../img/banner2.jpg) 50%}
+/*添加导航栏*/
+.nav{width: 100%;height: 76px; padding: 0 40px;position: fixed;top: 0;z-index: 5;border-bottom: 1px solid rgba(144,144,144,0.5)}
+.nav .logo{width: 18%;height: 76px;float: left;}
+.nav .logo img{height: 48px; margin-top: 15px;}
+.nav .nav-right{width: 80%;height: 76px;float: right;}
+.nav .nav-right ul{list-style: none;margin: 0;padding: 0; font-size: 18px;}
+.nav .nav-right ul li{margin: 0;padding: 0; width: 82px;height: 76px;margin-right: 55px;float: left;line-height: 76px;text-align: center;color: white;}
+.nav .nav-right ul li:first-child{margin-left: 200px}
+.nav .nav-right ul li.on{border-bottom: 2px solid white;}
+.nav .nav-right ul li:hover{cursor: pointer;border-bottom: 2px solid white; transition: 0.5s;}
+.section  h3{font-size: 40px; margin-bottom: 10px;}
+.section  p{font-size: 20px;}
+.section {position: relative;height: 100%;}
+.section .p2_nav{width: 100%;height: 87px;position: absolute;top: 100px}
+.section .p2_nav .p2_nav_l{width: 10%;height: 87px; line-height: 20px; float: left;margin-left: 30px;}
+.section .p2_nav .p2_nav_l h3{font-size: 25px;margin: 0;margin-top: 20px;}
+.section .p2_nav .p2_nav_l span{font-size: 17px;margin: 0;display: inline-block; width: 50px;font-weight: 100; border-top: 1px solid #fff;}
+.section .p2_nav .p2_nav_r{width:59%;height: 87px;float: right;}
+.section .p2_nav .p2_nav_r ul{list-style: none; font-size: 14px; color: #b2b2b2;}
+.section .p2_nav .p2_nav_r ul li{ width: 100px;line-height: 16px;float: left; }
+.section .p2_nav .p2_nav_r ul li:first-child{margin-left: 200px;}
+.section .p2_nav .p2_nav_r ul li:hover{color: #fff; cursor: pointer; transition: 0.5s;}
+.section .p2_main li{width: 23%;height: 300px;position: relative;margin-top: 100px;}
+
+
+
+
+ #BoxUl{width: 100%;height: 300px;overflow: hidden;}
+.p2_main .Box {position: relative;top: 0px;left: -40px;}
+.p2_main .Box .content {width: 1200px;margin: 0 auto;}
+.p2_main .Box .Box_con {position: relative;}
+.p2_main .Box .Box_con .conbox ul {position: relative;list-style: none;}
+.p2_main .Box .Box_con .conbox ul li {float: left;width: 285px;height: 200px;margin-left: 20px;}
+.p2_main .Box .Box_con .conbox ul li:first-child {margin-left: 0;}
+.p2_main .Box .Box_con .conbox ul li img {display: block;width: 285px;height: 200px;transition: all 0.5s;}
+.p2_main .Box .Box_con .conbox ul li:hover img {transform: scale(1.1);}
+.p2_main .Box .Box_con .conbox p{position: absolute;top: -70px;}
+
+
+
+.section .p2_btn_l{width: 40px;height: 40px;background: url(../img/left.png);background-size: 40px 40px; position: absolute;bottom: 80px;right: 150px;}
+.section .p2_btn_r{width: 40px;height: 40px;background: url(../img/right.png);background-size: 40px 40px; position: absolute;bottom: 80px;right: 110px;}
+.section .p2_btn_l:hover{cursor: pointer;background-color: rgba(144,144,144,0.1)}
+.section .p2_btn_r:hover{cursor: pointer;background-color: rgba(144,144,144,0.1)}
+.section .page_3{width: 100%;height: 100%; background: url(../img/page3.jpg) /*100% 100%*/; background-color:#212121 }
+.section .page_3 .p3_main{list-style: none;width: 100%;height: 100%; overflow: hidden;}
+.section .page_3 .p3_main li{width: 35%;height:100%;position: relative;top:-120%; background-color: rgba(0,0,0,0.6);float: left; z-index: 10}
+.section .page_3 .p3_main li:first-child{margin-left: -70px;}
+.section .page_3 .p3_main li:nth-child(2){width: 32%; border-left: 1px solid rgba(144,144,144,0.5);border-right: 1px solid rgba(144,144,144,0.5) }
+.section .page_3 .p3_main li:hover{cursor: pointer;}
+.section .page_3 .p3_main li img{margin-top: 150px;}
+.section .page_3 .p3_main li h4{font-size: 24px; width: 40%;font-weight: 100; line-height: 40px; margin: 0 auto;}
+.section .page_3 .p3_main li p{width: 20%;height: 1px;margin: 20px auto; background-color: #fff;}
+.section .page_3 .p3_main li span{font-size: 16px;display: inline-block;line-height: 30px; width: 72%;margin: 0 auto}
+.section4{width: 100%;height: 100%; background: url(../img/four.jpg) 100% 100% }
+.section .p4_nav{width: 100%;height: 87px;position: absolute;top: 100px}
+.section .p4_nav_l{width: 10%;height: 87px; line-height: 20px; float: left;margin-left: 30px;}
+.section .p4_nav_l h3{font-size: 25px;margin: 0;margin-top: 20px;}
+.section .p4_nav_l span{font-size: 17px;margin: 0;display: inline-block; width: 50px;font-weight: 100; border-top: 1px solid #fff;}
+.section .p4_main{width: 1190px;height: 270px;background-color: #292929;margin: 0px auto;margin-top: 100px;position: relative;}
+.section .p4_main .p4_txt{width: 100%;height: 240px;position: absolute;top: 30px;}
+.section .p4_main .p4_txt p{font-size: 14px;float: right;width: 77%; text-align: left; line-height: 26px;}
+.section .p4_main .imgs{width: 220px;height: 100%;position: absolute;left: 50px;}
+.section .p4_main .imgs p{width: 220px;height: 80px;line-height: 50px; font-size: 16px;background-color: #292929;position: absolute;top: 250px;}
+.section .p4_main .p4_txt:hover p{width: 73%;transition: 0.5s}
+.section .p4_btn_l{width: 40px;height: 40px;background: url(../img/left.png);background-size: 40px 40px; position: absolute;bottom: 80px;right: 150px;}
+.section .p4_btn_r{width: 40px;height: 40px;background: url(../img/right.png);background-size: 40px 40px; position: absolute;bottom: 80px;right: 110px;}
+.section .p4_btn_l:hover{cursor: pointer;background-color: rgba(144,144,144,0.1)}
+.section .p4_btn_r:hover{cursor: pointer;background-color: rgba(144,144,144,0.1)}
+.section .p5_nav{width: 100%;height: 87px;position: absolute;top: 100px}
+.section .p5_nav_l{width: 10%;height: 87px; line-height: 20px; float: left;margin-left: 30px;}
+.section .p5_nav_l h3{font-size: 25px;margin: 0;margin-top: 20px;}
+.section .p5_nav_l span{font-size: 17px;margin: 0;display: inline-block; width: 80px;font-weight: 100; border-top: 1px solid #fff;}
+.section .p5_main{width: 100%;height: 380px;margin-top: 150px;}
+.section .p5_main .one{width: 100%;height: 50%; position: relative;left: 120%;}
+.section .p5_main .one img{width: 150px;height: 150px;float: left;margin-left: 100px;margin-top: 20px;}
+.section .p5_main .one .information{width: 255px;height: 58px;border-left: 2px solid #4E4E4E;text-align: left;  position: absolute;top: 50px;left: 330px;}
+.section .p5_main .one .information h3{width: 100%;height: 60%; font-size: 18px;margin: 0;padding: 0;margin-left: 20px;}
+.section .p5_main .one .information p{width: 40%;height: 40%;margin-left: 20px;border-top: 1px solid #4E4E4E;text-align: left; font-size: 14px;margin-top: 0;}
+.section .p5_main .one .introduce{font-size: 14px;font-weight: 100; width: 576px;height: 74px;position: absolute;top: 50px;right: 200px;}
+.section .p5_main .one:hover{background-color: #4E4E4E;transition: 0.5s;}
+.section .p5_main .two{width: 100%;height: 50%; position: relative;right: 120%;}
+.section .p5_main .two img{width: 150px;height: 150px;float: left;margin-left: 100px;margin-top: 20px;}
+.section .p5_main .two .information{width: 255px;height: 58px;border-left: 2px solid #4E4E4E;text-align: left;  position: absolute;top: 50px;left: 330px;}
+.section .p5_main .two .information h3{width: 100%;height: 60%; font-size: 18px;margin: 0;padding: 0;margin-left: 20px;}
+.section .p5_main .two .information p{width: 40%;height: 40%;margin-left: 20px;border-top: 1px solid #4E4E4E;text-align: left; font-size: 14px;margin-top: 0;}
+.section .p5_main .two .introduce{font-size: 14px;font-weight: 100; width: 576px;height: 74px;position: absolute;top: 50px;right: 200px;}
+.section .p5_main .two:hover{background-color: #4E4E4E;transition: 0.5s;}
+.section .page_6 {width: 100%;height: 100%;background: url(../img/map.png);}
+.section .page_6 .contact_l{width: 522px;height: 260px;text-align: left; position: absolute;bottom: -120%;left: 200px;background-color: #272822;}
+.section .page_6 .contact_l h5{font-size: 22px;font-weight: 100;margin-left: 100px;}
+.section .page_6 .contact_l p{font-size: 16px;font-weight: 100;margin-left: 100px;}
